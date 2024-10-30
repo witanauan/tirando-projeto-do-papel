@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+:root{
+    --bg-body: #242a32;
+    --color-primary: #131219;
+    --text-color:#f4f3f3;
+    --text-form: #92929D;
+    --start-yellow: #FFBB3A;
+}
+
+html, body
+{
+    background-color: red;
+}
+header
+{
+    background-color: var(--color-primary);
+    color: #fff;
+    height: 60px;
+    display:flex;
+    align-items: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 
+{
+    margin: 0;
+}
+
+a 
+{
+    text-decoration: none;
+    color: unset;
+}
+
+nav 
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+nav h1 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+nav a {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.link-container{
+    display: flex;
+    align-items: center;
+
+}
+
+.link-container img {
+    margin-right:10px ;
+    
+}
+
+.card-movies
+{
+    width: 100%;
+
+    /* height: 400px; */
+    
+}
+#card-movies-list{
+    padding: 40px 10px;
+}
+.card-movies img{
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+.card-movies-description{
+    height: 220px;
+    padding: 10px  0 20px 0 ;
+    background-color: var(--color-primary);
+    color: var(--text-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0 0 8px 8px;
+}
+.card-movies-description h3 {
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.movies-btn{
+    width: 150px;
+    height: 50px;
+    background-color: var(--bg-body);
+    color: var(--text-color);
+    font-size: 16px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    border: 0;
+}
+.movies-btn:hover {
+    background-color: rgb(129, 134, 134);
+}
+
+.score-container{
+    padding: 40px 0;
+    max-width: 480px;   
+}
+.card-score-description{
+    background-color: var(--text-color);
+    color: var(--color-primary);
+    padding: 50px;
+    padding-right: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: normal;
+    border-radius: 0 0 8px 8px;
+
+
+}
+.movies-form-btn{
+    height: 110px;
+    display: flex;
+    flex-direction:flex;
+    justify-content: space-between;
+}
+.movies-form-group{
+    margin-bottom: 20px;
+
+}
+.movies-form-group label{
+    font-size: 12px;
+    color: var(--color-primary);
+}
+
+.card-score-description h3 {
+       font-size: 14px;
+       font-weight: 700;
+       margin-bottom: 20px;
+}
+
+.movies-card-description-star{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+.movies-card-description-star h4{
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--start-yellow);
+}
+
+.movies-card-description-star img{
+    width: 22px;
+    margin-bottom: 10px;
+}
+
+.movies-card-description-star p{
+    font-size: 12px;
+    font-weight: 400;
+    color:var(--text-form);
+    margin-bottom: 10px;
+}
+.movie-pagination-container {
+    padding: 25px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.movies-pagination-box{
+    width: 180px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.movies-pagination-box p {
+    margin: 0;
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--text-color);
+}
+
+.movies-pagination-box button{
+    width: 40px;
+    height: 40px;
+    border: 2px solid var(--text-color);
+    background-color: var(--text-color);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.movies-pagination-box button:disabled{
+    border: 1px solid var(--text-color);
+    background-color: var(--bg-body);
+
+}
+
+.movies-button-flip{
+    transform: rotate(180deg);
+}
+
+.card-movies h3{
+    font-size: larger;
+}
+
+.movies-score label{
+    font-size: medium;
+    
+}
+
+.movies-form-btn a {
+    border-radius: 10px;
+    background-color: blue;
+    border-color: white;
+
+} 
+
+.movies-form-btn button{
+    border-radius: 10px;
+    background-color: blue;
+    border-color: white;
+}
+
+.movies-form-btn button a{
+    right: 50px;
+}
+
+.card-score-section img {
+    align-items: center;
+    justify-content: center;
+}
+
