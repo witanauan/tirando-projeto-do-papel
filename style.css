@@ -9,14 +9,16 @@
 :root{
     --bg-body: #242a32;
     --color-primary: #131219;
-    --text-color:#f4f3f3;
-    --text-form: #92929D;
+    --text-color: white;
+    --text-form: #f4f3f4;
     --start-yellow: #FFBB3A;
 }
 
 html, body
 {
-    background-color: red;
+    background-image: url(/img_de_fundo/i5-loja-0000-scaled.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 header
 {
@@ -37,8 +39,7 @@ h6
     margin: 0;
 }
 
-a 
-{
+.link-container a {
     text-decoration: none;
     color: unset;
 }
@@ -90,7 +91,7 @@ nav a {
     height: 220px;
     padding: 10px  0 20px 0 ;
     background-color: var(--color-primary);
-    color: var(--text-color);
+    color: white;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -107,7 +108,7 @@ nav a {
     width: 150px;
     height: 50px;
     background-color: var(--bg-body);
-    color: var(--text-color);
+    color: var(--color-primary);
     font-size: 16px;
     font-weight: 700;
     display: flex;
@@ -139,7 +140,7 @@ nav a {
 .movies-form-btn{
     height: 110px;
     display: flex;
-    flex-direction:flex;
+    flex-direction: column;
     justify-content: space-between;
 }
 .movies-form-group{
@@ -227,12 +228,12 @@ nav a {
 
 .movies-score label{
     font-size: medium;
-    
+
 }
 
 .movies-form-btn a {
     border-radius: 10px;
-    background-color: blue;
+    background-color: white;
     border-color: white;
 
 } 
@@ -251,4 +252,14 @@ nav a {
     align-items: center;
     justify-content: center;
 }
+
+.movies-btn-central {
+    display: flex;
+}
+
+
+
+
+
+
 
